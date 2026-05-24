@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>projeto-ap2</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="cordefundolightgray">
+    <header>
+       <nav class="navbar navbar-expand-sm p-4 cordefundocaramela">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="">LOCAL COFFEE </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                 </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="home.html">Sobre</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="menu.html" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Menu
+                            </a>
+                            <ul class="dropdown-menu cordefundocaramelaclaro">
+                                <li><a class="dropdown-item" href="quentes.html">Cafés quentes</a></li>
+                                <li><a class="dropdown-item" href="gelados.html">Cafés gelados</a></li>
+            
+                                <li><a class="dropdown-item" href="breakfast.html">breakfeast</a></li>
+                            
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./mais.html">Mais</a>
+                        </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div id="carouselExampleInterval" class="bg-dark carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner ">
+                <div class="carousel-item active" data-bs-interval="5000">
+                    <img height="600" src="./img1_carrosel_home.png"
+                        class="d-block w-50 mx-auto"  alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="5000">
+                    <img height="600" src="./img2_carrosel_home.png"
+                        class="d-block  w-50 mx-auto" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="5000">
+                    <img height="600" src="./img3_carrosel_home.png"
+                        class=" d-block w-50 mx-auto " alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        
+        </section>
+        <section>
+            <div class="row m-4 gap-3 justify-content-center">
+                <div class="card col-12 col-sm-12 col-lg-5  cordefundocaramelaclaro">
+                    <div class="row g-0">
+                        <div class="col-4">
+                            <img src="./local_centro.png" alt="" class="img-fluid.rounded-start w-100 ">
+                        </div>
+                        <div class="col-8 ">
+                            <div class="card-body ">
+                                <h5 class="card-title"> Local Coffee centro</h5>
+                                <h6 class="card-subtitle"> localizado:Av General Osório 146, centro</h6>
+                            
+                                <p class="card-text">Nossa unidade do centro, é coberta e aconchegante, perfeito para quem quer desfrutar de um café com a familia.</p>
+                                <p>Contando com um menu extenso e nutritivo, colocamos nosso esforço e apreciação em cada pedido.</p>
+                                <a href="https://www.google.com.br/maps/place/Local+Coffee/@-29.3368362,-49.7324115,17z/data=!3m1!4b1!4m6!3m5!1s0x952269b8af2fcbe9:0x6d1c0587bebf95e2!8m2!3d-29.3368362!4d-49.7298366!16s%2Fg%2F11qyqb3fg_?entry=ttu&g_ep=EgoyMDI2MDUyMC4wIKXMDSoASAFQAw%3D%3D" class="btn btn-dark">ver no mapa</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 <div class="card col-12 col-sm-12 col-lg-5 cordefundocaramelaclaro  ">
+                    <div class="row g-0">
+                        <div class="col-4">
+                            <img src="./local_molhes.png" alt="" class="img-fluid.rounded-start w-100 ">
+                        </div>
+                        <div class="col-8">
+                            <div class="card-body">
+                                <h5 class="card-title"> Local Coffee molhes</h5>
+                                <h6 class="card-subtitle"> localizado:R. Egídio Michaelsen 222, molhes</h6>
+                        
+                                <p class="card-text">Nossa unidade dos molhes é um lugar com espaço aberto, bom para os dias de verão, para reunir a familia e os amigos curtindo um por do sol com um ótimo café</p>
+                                <p>Apesar do menu ser reduzido, entrega o mesmo conforto e atendimento que o café local do centro </p>
+                                 <a href="https://www.google.com.br/maps/place/Local+Coffee+Molhes/@-29.3274113,-49.7213737,17z/data=!3m1!4b1!4m6!3m5!1s0x9522690058633ed5:0x848dbbb2406d1040!8m2!3d-29.3274113!4d-49.7187988!16s%2Fg%2F11wq6sgvcf?entry=ttu&g_ep=EgoyMDI2MDUyMC4wIKXMDSoASAFQAw%3D%3D" class="btn btn-dark">ver no mapa</a>
+                          
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </section>
+        <section>
+            <div class="d-flex align-items-start flex-column flex-md-row">
+
+                <img 
+                    class="img-fluid me-md-4 mb-3 ms-3 mb-md-0"
+                            src="./hist_jess_lucas.png" 
+                         alt=""
+                         style="width: 180px;">
+                <div>
+                    <h5>Como surgiu a ideia de uma cafeteria</h5>
+
+                    <p>
+                        A ideia de abrir uma cafeteria surgiu em meio à paixão que já existia pelo ramo,
+                        pois ambos já eram da área, porém não aqui no Brasil. Essa paixão começou na Austrália.
+                    </p>
+
+                    <p>
+                        O nome Local Coffee é justamente para ser um café local, onde a comunidade consiga
+                        frequentar e se sentir parte da família, a família Local Coffee.
+                    </p>
+
+                    <p>
+                        Mas quem poderia prever que um sonho poderia se tornar tudo que é hoje,
+                        com duas locações tão frequentadas na cidade.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+        </section>
+       
+
+          
+    </main>
+     <footer class="cordefundocaramela border-top mt-3 py-5">
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-4">
+                    <h6>LOCAL COFFEE</h6>
+
+                    <p>
+                        Cafés especiais e ambiente aconchegante.
+                    </p>
+                    <p class="mb-0 text-dark">
+                        © 2026 Iasmim Silva
+                    </p>
+                </div>
+
+                <div class="col-md-4">
+                    <h5>Contato</h5>
+
+                    <p class="mb-1">📍 Torres - RS</p>
+                    <p class="mb-1">📞 (51) 98409-9197</p>
+                </div>
+
+                <div class="col-md-4">
+                    <h5>Redes sociais</h5>
+
+                    <div class="d-flex gap-2">
+
+                        <a href="https://www.instagram.com/localcoffeetorres/" class="btn btn-dark">
+                            Instagram Local
+                        </a>
+
+
+                        <a href="https://www.instagram.com/localroasterstorres/" class="btn btn-dark">
+                            Instagram Local Roasters
+                        </a>
+
+
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </footer>
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+.cordefundocaramela{
+background-color: rgb(175, 119, 55);
+}
+.cordefundolightgray{
+background-color: rgb(233, 233, 233);
+}
+
+.cordefundocaramelaclaro{
+    background-color: rgb(185, 157, 126);
+}
+.card-img-top-ajuste{
+    height: 250px;
+    object-fit: cover;
+}
